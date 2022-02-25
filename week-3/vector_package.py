@@ -7,5 +7,5 @@ def get_vecs(embeddings, words):
         x = word
         embedd = embeddings[x]
         X = np.row_stack((X, embedd))
-    #X=X[1:,:]    
+    X=X[1:,:]    
     return X
